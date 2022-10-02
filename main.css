@@ -1,0 +1,63 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+header h1{
+    font-family: 'Noto Sans Mono', monospace;
+}
+body{
+    font-family: 'Source Sans Pro', sans-serif;
+}
+header{
+    background-color: rgb(116, 5, 5);
+    padding: 16px 0;
+}
+.container{
+    max-width: 1280px;
+    width: 100%;
+    margin: 0 auto;
+}
+h1 {
+    padding: 32px 40%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    color:aliceblue;
+}
+.container img{
+    max-width: 500px;
+}
+header .container,
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+p{
+    margin-bottom: 8px;
+}
+
+.jett{
+    margin-right: 32px;
+}
+.contact-methods{
+    display: flex;
+    justify-content: space-between;
+}
+
+form input,
+form textarea,
+form button {
+    
+    display: block;
+    width: 320px;
+    margin-bottom: 8px;
+    padding: 8px;
+}
+
+form textarea{
+    resize: none;
+    height: 180px;
+}
